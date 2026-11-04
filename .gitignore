@@ -1,0 +1,2 @@
+.env
+src\stockanalysis\langchain*.py

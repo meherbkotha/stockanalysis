@@ -15,6 +15,7 @@ dependencies = [
     "pandas>=3.1.0",
     "pinecone>=7.3.0",
     "pypdf>=6.21.4",
+    "streamlit>=1.66.1",
 ]
 
 [project.scripts]

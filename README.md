@@ -1,4 +1,4 @@
-# Stock Analysis Book Chat
+# Stock Analysis Agent
 
 A small Streamlit proof of concept for asking questions about the stock-education
 book. It retrieves relevant passages from Pinecone and sends them, along with

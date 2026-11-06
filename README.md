@@ -1,9 +1,11 @@
-# Stock Analysis Book Chat
+# Stock Research Assistant
 
-A small Streamlit proof of concept for asking questions about the stock-education
-book. It retrieves relevant passages from Pinecone and sends them, along with
-the question, to a Nebius-hosted chat model. This is an educational Q&A demo,
-not a source of live prices or personalized investment advice.
+A Streamlit proof of concept for stock research. The agent can search the
+stock-analysis book and call tools for recent prices, historical price data,
+financial statements, and technical indicators. It uses a Nebius-hosted chat
+model and Pinecone for book retrieval. Market data is provided by Yahoo Finance
+via `yfinance`; quotes may be delayed. This is not personalized investment
+advice.
 
 ## Run locally
 
@@ -31,8 +33,8 @@ not a source of live prices or personalized investment advice.
 4. Start the chat UI:
 
    ```powershell
-   uv run streamlit run app.py
+   uv run streamlit run app_stock_research_agent.py
    ```
 
-The app keeps the conversation in Streamlit session state and displays the
-retrieved book titles and page numbers for each answer.
+The app keeps the conversation in Streamlit session state and shows tool
+outputs and retrieved book passages under each answer.

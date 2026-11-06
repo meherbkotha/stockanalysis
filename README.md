@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 # Stock Research Assistant
-=======
+
 # Stock Analysis Agent
->>>>>>> 17d6c55e2c772af08a388c3f9524c8c7bbdda1f6
+
 
 A Streamlit proof of concept for stock research. The agent can search the
 stock-analysis book and call tools for recent prices, historical price data,
